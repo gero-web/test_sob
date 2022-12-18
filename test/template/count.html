@@ -1,0 +1,7 @@
+
+<form method="post"  action="{% url 'count_word'%}">
+    {% csrf_token %}
+    {{f1.as_p}}
+    <input type="submit" value="Ok"/>
+</form>
+
